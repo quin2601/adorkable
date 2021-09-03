@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	width: 8640px;
+	position: absolute;
+	background-color: white;
+	overflow: hidden;
+}
+
+.container
+{
+	width: 8640px;
+	height: 100%;
+	
+}
+.noidung
+{
+	width: 1440px;
+	height: 100%px;
+	font-size: 35pt;
+	float: left;
+	padding: 0%;
+	box-sizing: border-box;
+	
+}
+
+
+.menu 
+{
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	border: 2px solid #002BFF;
+	position: fixed;
+	
+}
+.menu ul
+{
+	color: aliceblue;
+	margin: 0 20 0 20;
+}
+.menu a
+{
+	color: aliceblue;
+	text-decoration: none;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16pt;
+	margin-left: 20px;
+}
+
+.menu a:hover {
+padding: 0px 30px;  
+	overflow:hidden;
+}
